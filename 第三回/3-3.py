@@ -1,4 +1,4 @@
-from def_stop import Stop
+from 第六回.def_stop import Stop
 
 # Nodeクラス
 class Node:

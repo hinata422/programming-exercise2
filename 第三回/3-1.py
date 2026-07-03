@@ -1,4 +1,4 @@
-from def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
+from 第六回.def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
 
 class Node:
     def __init__(self, data, next=None):
@@ -30,7 +30,7 @@ print(message.format(p.data.name, p.data.id, p.data.lat, p.data.lng))
 # -----------------------------------------------------------------
 # 【以下、各行の詳細な解説】
 #
-# from 第4回.def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
+# from def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
 # ［他のファイルからデータを読み込む］
 # 事前に用意されたバス停のデータ（インスタンス）を使えるように読み込んでいます。
 #

@@ -1,5 +1,5 @@
 # StopクラスおよびStopインスタンスの定義をdef_stop.pyからインポート
-from def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
+from 第六回.def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
 
 # Nodeクラスの定義
 class Node:

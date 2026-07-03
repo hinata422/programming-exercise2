@@ -14,6 +14,7 @@ with open('actor_data.dat', 'r', encoding='utf-8') as fi:
         line = line.rstrip()
         items = line.split()
 
+
         name = items[0]
         movies = items[1:]
 

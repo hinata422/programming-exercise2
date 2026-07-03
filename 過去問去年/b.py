@@ -8,7 +8,7 @@ class Actor:
     def count_movies(self):
         return len(self.movies)
     
-
+#L1の２番目の節の直後にL2を挿入して二つの連結リストを合併したり、L2から中央の節を切り取り切り取られてしまった部分を連結してL2'としその中身を表示する
 movies_a=[]
 
 with open('actor_data.dat', 'r', encoding='utf-8')as fi:

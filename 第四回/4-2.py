@@ -1,5 +1,5 @@
 # 穴埋め問題用のプログラム（課題1の続き）
-from def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
+from 第六回.def_stop import Stop, ritsumeikan, doshisha, kyodai, kyosan, ryukoku
 from def_node import Node
 
 class Stack:
